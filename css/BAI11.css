@@ -1,0 +1,454 @@
+/* header */
+header {
+    width: 100%;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 1320px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+.nav-bar-content ul {
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+}
+.nav-bar-content ul li a {
+    text-decoration: none;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+}
+.nav-bar-content ul li:hover a {
+    color: #f55253;
+}
+.nav-bar-content ul li:first-child a {
+    color: #f55253;
+}
+/* search */
+.search-bar {
+    display: flex;
+    position: relative;
+}
+.search-input input {
+    font-size: 18px;
+
+    padding: 12px 66px 12px 44px;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.096);
+}
+.search-input input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+.search-input input:focus::placeholder {
+    color: transparent;
+}
+.search-input .icon {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.shopping-cart {
+    font-size: 28px;
+    color: rgb(45, 45, 45);
+    position: absolute;
+    top: 6px;
+    right: 22px;
+}
+.shopping-cart::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    top: 6px;
+    left: -22px;
+    border: 1px solid rgb(183, 183, 183);
+}
+.shopping-cart::after {
+    content: "2";
+    position: absolute;
+    background: #f54b4b;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: 30px;
+    box-shadow: -6px 9px 24px -6px rgba(238, 67, 67, 0.671);
+}
+/* card */
+.card {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.advertisement {
+    display: flex;
+    align-items: center;
+    background: #fdecec;
+    width: 16.6667%;
+    padding: 15px 10px;
+    border-radius: 99px;
+    gap: 10px;
+}
+.advertisement span {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #f54b4b;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.ship-slogan {
+    display: flex;
+}
+.ship-slogan > div {
+    width: 50%;
+}
+.ship-slogan > div h2 {
+    font-size: 74px;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 88px;
+    color: #2e2e2e;
+    font-family: "Poppins", sans-serif;
+}
+.ship-slogan > div h2 span {
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    color: #f54748;
+    font-family: "Poppins", sans-serif;
+}
+.ship-slogan > div p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    color: #676767;
+    max-width: 80%;
+    margin: 22px 0;
+}
+.ship-slogan > div > div .btn-order {
+    margin: 0 15px;
+}
+.btn-order a {
+    background: #f86061;
+    border-radius: 12px;
+    width: 186px;
+    padding: 25px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fffafa;
+    display: block;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+.btn-order:hover a {
+    border: 1px solid #f86061;
+    color: #f86061;
+    background-color: #fffafa;
+}
+.ship-slogan > div > div {
+    display: flex;
+    margin: 50px 0 10px 0;
+}
+.ship-slogan > div > div button {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    justify-content: space-between;
+    align-items: center;
+    color: #2e2e2e;
+    background: none;
+    border: none;
+    transition: 0.2s all ease;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.ship-slogan > div > div button:hover {
+    color: #2e2e2eca;
+}
+.ship-slogan > div > div button span:last-child {
+    width: 138px;
+}
+.ship-role-img img {
+    width: 100%;
+    display: block;
+}
+/* css phần 2 */
+.group-2 {
+    background-color: #fdecec;
+    text-align: center;
+    padding: 100px;
+}
+.group-2 span {
+    color: #f84e4f;
+}
+.group-2 h2 {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.814);
+}
+.group-2 .service-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 70px 0;
+    position: relative;
+}
+.service-list .content {
+    position: relative;
+}
+.content .option {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    width: 330px;
+    height: 300px;
+    border-radius: 10px;
+    z-index: 2;
+    padding-top: 50px;
+}
+.service-list .option img {
+    max-width: 120px;
+    min-height: 80px;
+}
+.service-list .option h3 {
+    margin: 40px 0 10px 0;
+    font-size: 25px;
+}
+.content .bg {
+    position: absolute;
+    background-color: #f84e4e;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 330px;
+    height: 350px;
+    border-radius: 10px;
+    transform-origin: top left;
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s, top 0.3s, left 0.3s;
+    z-index: 1;
+}
+.service-list .option:hover ~ .bg {
+    transform: rotate(-3deg) scale(1.02);
+    opacity: 1;
+    top: 10px;
+    left: 10px;
+}
+/* phần 3 */
+.box {
+    display: flex;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.box .group-image img {
+    width: 60%;
+    left: 100px;
+}
+.box .info {
+    width: 40%;
+    margin-top: 180px;
+    padding-right: 200px;
+    opacity: 0.8;
+    text-align: center;
+    text-align: left;
+}
+.box .info span {
+    color: #03a66b;
+    text-align: center;
+}
+.box .info h2 {
+    font-size: 40px;
+    width: 75%;
+    margin-top: 10px;
+}
+
+.box .info p {
+    width: 75%;
+    margin: 30px 0;
+}
+.box button {
+    color: #fff;
+    background: #f84e4f;
+    border-radius: 10px;
+    border: 1px solid #f84e4f;
+    padding: 20px 30px;
+    font-size: 20px;
+    transition: color 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+.box button:hover {
+    background-color: #fff;
+    color: #f84e4f;
+    border: 1px solid #f84e4f;
+}
+/* phần 4 */
+.container {
+    display: flex;
+    margin: 98px 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.container .item {
+    text-align: left;
+    margin-left: 100px;
+}
+.container .item h4 {
+    color: #ffb733;
+    margin-top: 150px;
+}
+.container .item h2 {
+    font-size: 30px;
+    width: 60%;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.container .item p {
+    font-size: 15px;
+    margin-top: 30px;
+    width: 85%;
+}
+.container .item button {
+    margin-top: 20px;
+    padding: 20px 45px;
+    background: #f86061;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: #fdecec;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container .item button:hover {
+    background: #fff;
+    border: 1px solid #f86061;
+    color: #f86061;
+    transition: 0.3s ease;
+}
+.container .logo-item img {
+    width: 100%;
+}
+/* phần 5 */
+.end {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #fdecec;
+}
+.end .box {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.end .cmt-item {
+    text-align: left;
+    margin-left: 300px;
+}
+.end .cmt-item h4 {
+    color: #f54748;
+}
+.end .cmt-item h2 {
+    font-size: 30px;
+    width: 60%;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.end .cmt-item p {
+    width: 85%;
+    margin: 20px 0;
+    opacity: 0.8;
+}
+.cmt-item button {
+    padding: 10px 20px;
+    background-color: #fdecec;
+    border: 1px solid rgba(128, 128, 128, 0.399);
+    border-radius: 10px;
+    margin: 50px 10px;
+    cursor: pointer;
+}
+.cmt-item button span {
+    color: #000;
+    font-size: 25px;
+    margin-left: 10px;
+    position: relative;
+    top: -12px;
+}
+/*Group-6*/
+.group-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    font-family: "Poppins", sans-serif;
+}
+.group-6 .aside {
+    width: 20%;
+    margin-right: 100px;
+}
+.group-6 .aside p {
+    margin-top: 20px;
+}
+.group-6 p {
+    color: gray;
+}
+.group-6 ul {
+    list-style: none;
+}
+.group-6 .column {
+    width: 300px;
+}
+.group-6 .column span {
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.group-6 ul li {
+    margin-bottom: 20px;
+}
+.group-6 ul li a {
+    text-decoration: none;
+    color: gray;
+}
+.group-6 ul li a:hover {
+    color: black;
+}
+/*Footer*/
+footer {
+    margin: 30px 100px;
+    color: gray;
+    font-size: 14px;
+}
+footer nav {
+    float: right;
+}
+footer nav a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+}
+footer nav a:hover {
+    color: #000;
+}
